@@ -1,0 +1,22 @@
+{
+    "name": "HW2_Computer_Vision",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "runArgs": [
+        "--gpus=all"
+    ],
+    "workspaceFolder": "/workspaces/HW2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot-chat",
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
